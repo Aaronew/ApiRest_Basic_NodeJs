@@ -23,9 +23,9 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 let urlDB;
 
     if (process.env.NODE_ENV === 'dev') {
-        urlDB = 'mongodb://localhost:27017/users';
+        urlDB = 'CONNECTION  FOR LOCAL DB';
     }else{
-        urlDB = 'mongodb://admin:dbuser_pass1337@ds115712.mlab.com:15712/users';
+        urlDB = 'CONNECTION  FOR DB';
     }
 
 
