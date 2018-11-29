@@ -9,6 +9,7 @@ process.env.PORT = process.env.PORT || 3000;
 // ===============================
 //  Enviroment:
 //  process.env.NODE_ENV generate by heroku.com 
+//  Customize your variable and place it by env.NODE_ENV
 // ===============================
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
